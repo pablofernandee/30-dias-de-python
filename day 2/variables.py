@@ -32,12 +32,18 @@ print(len(firts_name==last_name))
 num_one='5'
 num_two='4'
 
-print(num_one-num_two)
-print(num_one*num_two)
-print(num_one/num_two)
-print(num_two/num_one)
-print(num_one**num_two)
-print(num_one//num_two)
+cuenta1=(num_one-num_two)
+print(cuenta1)
+cuenta2=(num_one*num_two)
+print(cuenta2)
+cuenta3=(num_one/num_two)
+print(cuenta3)
+cuenta4=(num_two/num_one)
+print(cuenta4)
+cuenta5=(num_one**num_two)
+print(cuenta5)
+cuenta6=(num_one//num_two)
+print(cuenta6)
 
 numero_pi='3,14'
 radio='30'
