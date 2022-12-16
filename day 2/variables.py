@@ -1,6 +1,6 @@
 #day2:30 days of python programming
 firts_name='pablo'
-last_Name='fernandez'
+last_name='fernandez'
 full_name='pablo fernandez martinez'
 country='spain'
 city='jerez'
@@ -9,12 +9,12 @@ year='2022'
 is_married='true'
 is_true='false'
 is_light_on='yes'
-firts_name,last_Name,full_name,country,city,age,year,is_married,is_true,is_light_on='pablo',
+firts_name,last_name,full_name,country,city,age,year,is_married,is_true,is_light_on='pablo',
 'fernandez','pablo fernandez martinez','spain','jerez','16','2022','true','false','yes'
 
 
 print(type(firts_name))
-print(type(last_Name))
+print(type(last_name))
 print(type(full_name))
 print(type(country))
 print(type(city))
@@ -23,11 +23,11 @@ print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
-print(type(firts_name,last_Name,full_name,country,city,age,year,is_married,is_true,is_light_on))
+print(type(firts_name,last_name,full_name,country,city,age,year,is_married,is_true,is_light_on))
 
 print(len(firts_name))
 
-print(len(firts_name==last_Name))
+print(len(firts_name==last_name))
 
 num_one='5'
 num_two='4'
@@ -47,7 +47,7 @@ circumference=2*radio
 input(Area)
 
 input(firts_name)
-input(last_Name)
+input(last_name)
 input(country)
 input(age)
 
