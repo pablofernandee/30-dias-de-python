@@ -46,7 +46,10 @@ Area=numero_pi*radio**2
 circumference=2*radio
 input(Area)
 
-input(firts_name,last_Name,country,age)
+input(firts_name)
+input(last_Name)
+input(country)
+input(age)
 
 
 
