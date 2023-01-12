@@ -29,8 +29,8 @@ print(len(firts_name))
 
 print(len(firts_name==last_name))
 
-num_one='5'
-num_two='4'
+num_one=5
+num_two=4
 
 cuenta1=(num_one-num_two)
 print(cuenta1)
@@ -45,8 +45,8 @@ print(cuenta5)
 cuenta6=(num_one//num_two)
 print(cuenta6)
 
-numero_pi='3,14'
-radio='30'
+numero_pi=3,14
+radio=30
 
 Area=numero_pi*radio**2
 circumference=2*radio
