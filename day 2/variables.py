@@ -30,7 +30,9 @@ print(len(firts_name))
 print(len(firts_name==last_name))
 
 num_one=5
+print(num_one)
 num_two=4
+print(num_two)
 
 cuenta1=(num_one-num_two)
 print(cuenta1)
