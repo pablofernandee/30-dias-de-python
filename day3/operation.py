@@ -120,6 +120,8 @@ print((int('9.8'))== 10)
 horas=input('Enter hours:')
 tarifa=input('Enter tarifa por hora:')
 print(horas*tarifa)
+salario=(horas*tarifa)
+print(salario)
 
 
 
