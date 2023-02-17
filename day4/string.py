@@ -49,6 +49,79 @@ print(replace2)
 dividircoding="Coding For All".split()
 print(dividircoding)
 
+companies="Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
+separation_comas=companies.split(',')['Facebook', 'Google',' Microsoft', 'Apple', 'IBM', 'Oracle',' Amazon' ]
+
+frase='coding for all'
+palabra0=frase[0]
+print(palabra0)
+
+frase='coding for all'
+ultima_palabra=frase[13]
+print(ultima_palabra)
+
+frase='coding for all'
+palabra10=frase[10]
+print(palabra10)
+
+phrase='python for all'
+acronimo=phrase[0,7,11]
+print(acronimo)
+
+phrase1='coding for all'
+acronimo1=phrase1[0,7,11]
+
+frase='coding for all'
+positionofc=frase.index('c')
+print(positionofc)
+
+
+frase='coding for all'
+positionoff=frase.index('f')
+print(positionoff)
+
+print(frase.rfind('l'))
+
+frassse='You cannot end a sentence with because because because is a conjunction'
+print(frassse.index('because'))
+
+print(frassse.rindex('because'))
+
+print(frassse.split())
+
+print(frassse.index('because'))
+
+print(frassse.split())
+
+cortar='coding for all'
+print(cortar.startswith('coding'))
+
+print(cortar.endswith('coding'))
+
+print(cortar.replace(' ',''))
+
+
+buscar_true='30DaysOfPython'
+print(buscar_true.isidentifier())
+
+buscartrue='thirty_days_of_python'
+print(buscartrue.isidentifier())
+
+list=('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon')
+quitarespacio=list.join('#')
+print(quitarespacio)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
