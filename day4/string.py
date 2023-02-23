@@ -107,9 +107,12 @@ print(buscar_true.isidentifier())
 buscartrue='thirty_days_of_python'
 print(buscartrue.isidentifier())
 
-list=('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon')
-quitarespacio=list.join('#')
+list1=['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+quitarespacio='#'.join(list1)
 print(quitarespacio)
+
+
+
 
 
 
