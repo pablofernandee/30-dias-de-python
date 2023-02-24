@@ -121,12 +121,6 @@ print(quitarespacio)
 
 
 
-
-
-
-
-
-
   
 
 

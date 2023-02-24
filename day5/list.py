@@ -96,10 +96,5 @@ print(ordenar)
 encontraminymax=ordenar[0,1,9]
 print(encontraminymax)
 
-twonumber=[19,26]
-añadirunoydos=ordenar+twonumber
+añadirunoydos=ordenar.insert(19,26)
 print(añadirunoydos)
-
-
-
-
