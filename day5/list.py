@@ -76,7 +76,7 @@ del companies
 #mirarlo de borra lista y preguntar lo de las diferentes listas que he puesto
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
-joinfrontyback=front_end+back_end
+joinfrontyback=back_end+front_end
 print(joinfrontyback)
 
 copiar_lista=joinfrontyback.copy()
@@ -96,5 +96,5 @@ print(ordenar)
 encontraminymax=ordenar[0,1,9]
 print(encontraminymax)
 
-añadirunoydos=ordenar.insert(19,26)
+añadirunoydos=ordenar.append(19,26)
 print(añadirunoydos)

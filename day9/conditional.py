@@ -1,12 +1,14 @@
 age=input('Enter your age:')
-if age>= 18:
+if age>= '18':
  print('You are old enough to learn to drive')
- if age<=18:
-  h=(18-age)
+if age<='18':
+  i=int(age)
+  h=(18-i)
 print('you need {h} more years to learn to drive')
 
 myage=16
-yourage=input('Enter your age:')
+yourage1=input('Enter your age:')
+yourage=int(yourage1)
 
 if myage==yourage:
      print('you are the same age than me ')
@@ -48,19 +50,19 @@ else:
 
 
 mark=input('Enter mark:')
-if mark==0<=49:
+if mark=='0'<='49':
    print('F')
 
-elif mark>=50<=59:
+elif mark>='50'<='59':
    print('D')
 
-elif mark>=60<=69:
+elif mark>='60'<='69':
    print('C')
 
-elif mark>=70<=89:
+elif mark>='70'<='89':
    print('B')
 
-elif mark>=80<=100:
+elif mark>='80'<='100':
    print('A')
 
   
@@ -90,14 +92,5 @@ if fruta in fruits:
 elif fruta not in fruits:
    print('fruta are not in the list')
    fruits.append(fruta)
-else:
    print(fruits)
-
-
-
-
-
-
-
-
    
