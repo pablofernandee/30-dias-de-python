@@ -1,3 +1,5 @@
+dog=dict()
+
 dog={'fits_name':'mckeen',
      'age':12,
      'color':'black',
