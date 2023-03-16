@@ -22,7 +22,7 @@ for nu in range(8):
 l=range(11)
 for n in l:
     u=n*n
-    q=print(u)
+    print(u)
 
 
 
@@ -47,3 +47,20 @@ for n in range(101):
     suma = suma + n
 
 print(suma)
+
+suma2=0
+suma1=0
+for r in range(101):
+    if r%2!=0:
+        continue
+    print(suma1)
+    suma1=suma1+r
+for p in range(101):
+    if p%2==0:
+        continue
+    print(suma2)
+    suma2=suma2+p
+    
+
+
+
